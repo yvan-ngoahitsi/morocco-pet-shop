@@ -1,8 +1,8 @@
 <style>
   .user-img{
         position: absolute;
-        height: 27px;
-        width: 27px;
+        height: 30px;
+        width: 30px;
         object-fit: cover;
         left: -7%;
         top: -12%;
@@ -49,7 +49,7 @@
           <li class="nav-item">
             <div class="btn-group nav-link">
                   <button type="button" class="btn btn-rounded badge badge-light dropdown-toggle dropdown-icon" data-toggle="dropdown">
-                    <span><img src="<?php echo validate_image($_settings->userdata('avatar')) ?>" class="img-circle elevation-2 user-img" alt="User Image"></span>
+                    <span><img src="<?php echo validate_image($_settings->userdata('avatar')) ?>" class="img-circle elevation-2 user-img" alt="User image"></span>
                     <span class="ml-3"><?php echo ucwords($_settings->userdata('firstname').' '.$_settings->userdata('lastname')) ?></span>
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
